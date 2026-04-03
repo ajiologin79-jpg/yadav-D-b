@@ -5,17 +5,17 @@ import jakarta.persistence.Id;
 
 @Entity
 public class User {
-    private String name;
+    private String userName;
 
     @Id
     private String email;
 
-    public String getName() {
-        return name;
+    public String getUserName() {
+        return userName;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setUserName(String name) {
+        this.userName = name;
     }
 
     public String getEmail() {
